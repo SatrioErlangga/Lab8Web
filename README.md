@@ -56,7 +56,7 @@ Lab8Web/
 
 Sebelum membuat aplikasi CRUD, jalankan layanan **Apache** dan **MySQL** melalui XAMPP Control Panel. Setelah kedua layanan aktif (berwarna hijau), buka phpMyAdmin melalui browser pada alamat `http://localhost/phpmyadmin/`.
 
-![Menjalankan XAMPP Control Panel](screenshots/01_xampp_control.png.png)
+![Menjalankan XAMPP Control Panel](screenshots/screenshots01_xampp_control.png.png)
 
 ---
 

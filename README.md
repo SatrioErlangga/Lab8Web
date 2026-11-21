@@ -79,7 +79,7 @@ CREATE TABLE data_barang (
 );
 ```
 
-![Membuat Database dan Tabel di phpMyAdmin](screenshot02_phpmyadmin_buat_database_tabel.png.png)
+![Membuat Database dan Tabel di phpMyAdmin](screenshots/screenshots02_phpmyadmin_buat_database_tabel.png.png)
 
 ---
 
@@ -95,7 +95,7 @@ VALUES
 ('Elektronik', 'HP OPPO Android', 'hp_oppo.jpg', 1800000, 2300000, 5);
 ```
 
-![Menambahkan Data Awal ke Tabel data_barang](screenshots03_insert_data_barang.png.png)
+![Menambahkan Data Awal ke Tabel data_barang](screenshots/screenshots03_insert_data_barang.png.png)
 
 ---
 
@@ -103,7 +103,7 @@ VALUES
 
 Buat folder baru bernama `lab8_php_database` di dalam direktori `C:\xampp\htdocs\`, lalu akses melalui browser di alamat `http://localhost/lab8_php_database/` untuk memastikan direktori terbaca oleh Apache.
 
-![Struktur Folder lab8_php_database](screenshots04_directory_lab8.png.png)
+![Struktur Folder lab8_php_database](screenshots/screenshots04_directory_lab8.png.png)
 
 ---
 
@@ -127,7 +127,7 @@ if ($conn == false)
 ?>
 ```
 
-![Hasil Pengujian Koneksi Database](screenshots05_tes_koneksi.png.png)
+![Hasil Pengujian Koneksi Database](screenshots/screenshots05_tes_koneksi.png.png)
 
 ---
 
@@ -198,7 +198,7 @@ $result = mysqli_query($conn, $sql);
 </html>
 ```
 
-![Tampilan Halaman Utama Data Barang](screenshots06_tampilan_index.png.png)
+![Tampilan Halaman Utama Data Barang](screenshots/screenshots06_tampilan_index.png.png)
 
 ---
 
@@ -244,9 +244,9 @@ if (isset($_POST['submit']))
 ?>
 ```
 
-![Form Tambah Barang](screenshots07_form_tambah_barang.png.png)
+![Form Tambah Barang](screenshots/screenshots07_form_tambah_barang.png.png)
 
-![Hasil Penambahan Data Barang pada Halaman Index](screenshots08_hasil_tambah_barang.png.png)
+![Hasil Penambahan Data Barang pada Halaman Index](screenshots/screenshots08_hasil_tambah_barang.png.png)
 
 ---
 
@@ -298,9 +298,9 @@ if (isset($_POST['submit']))
 }
 ```
 
-![Form Ubah Barang](screenshots09_form_ubah_barang.png.png)
+![Form Ubah Barang](screenshots/screenshots09_form_ubah_barang.png.png)
 
-![Hasil Perubahan Data Barang pada Halaman Index](screenshots10_hasil_ubah_barang.png.png)
+![Hasil Perubahan Data Barang pada Halaman Index](screenshots/screenshots10_hasil_ubah_barang.png.png)
 
 ---
 
@@ -323,4 +323,4 @@ exit;
 ?>
 ```
 
-![Hasil Penghapusan Data Barang pada Halaman Index](screenshots11_hasil_hapus_barang.png.png)
+![Hasil Penghapusan Data Barang pada Halaman Index](screenshots/screenshots11_hasil_hapus_barang.png.png)
